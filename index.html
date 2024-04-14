@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinan's Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Satisfy&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo"><a href="">Sinan Çayıroglu</a></div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn"><i class="fas fa-times"></i></div>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#aboutme">About me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">My Projects</a></li>
+        </ul>
+        <div class="icon menu-btn"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+    <div id="Home" class="banner">
+        <canvas class="Matrix" ></canvas>
+    </div>
+
+    <div id="aboutme" class="aboutme">
+      <div class="content">
+        <div class="my-image">
+        <img src="./images/sinan.jpg" height="200px" alt="sinan"></div>
+        <h1>About Me</h1>
+        <p>
+          Hi i am Sinan Çayıroğlu and this is my HTML resume project.I am 29
+          years old and i always had a passion for computers and learning since
+          i was a child.I was curious of how computers work and i was mind
+          boggled about why programs crash and how computers get hacked so i
+          wanted to learn programming to understand whys and hows.IT department
+          is growing and evolving each and every year and i love improving
+          myself.
+        </p>
+      </div>
+      <div class="about-img"><img src="./images/aboutme.jpg" alt="about me"></div>
+    </div>
+    <div id="education" class="education">
+        <div class="education-img">
+            <img src="./images/education.jpg" alt="education">
+        </div>
+        <div class="content">
+            <h1>Education</h1>
+            <p>2014 - 2015 -
+                German translation and interpreting
+                Ege University, İzmir</p>
+    
+                <p>Jul 2016 -
+                    Computer System Maintenance and Repair
+                    İsmek, İstanbul, Türkiye<br>
+                    I received a certificate in the Computer System
+                    Maintenance and Repair branch at G.O.PAŞA
+                    VOCATIONAL EXPERT CENTER course center.</p>
+                    <p> 2016
+                        Web designer
+                        I received a certificate from Ismek in the Web
+                        Design branch.</p>
+                        <p>I have a certificate from udemy on software developing.
+                            <br><img src="./images/udemysofwaredeveloper.jpg" height="200"></p>            <p>
+                Oct 2016 - Jul 2020 -
+                English Translation- Interpreting
+                University Undergraduate; İstanbul Yeni Yüzyıl
+                Üniversitesi, İstanbul</p>
+            </p>
+        </div>
+    </div>
+    <div id="skills" class="skills">
+        <div class="content">
+            <h1>Skills</h1>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                 <li>Css</li>
+                <li>Flexbox</li>
+                <li>Grid</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Ejs</li>
+                <li>C++</li>
+                <li>English</li>
+                <li>Spanish</li>
+                <li>German</li>
+            </ul>
+        </div>
+        <div class="skills-img">
+            <img src="./images/skills.webp" alt="programming">
+        </div>
+    </div>
+    <div class="hobbies">
+        <div class="hobby-img">
+            <img src="./images/boxing.webp" alt="sports">
+        </div>
+        <div class="content"><h1>Hobbies</h1>
+            <ul>
+                <li>Fitness</li>
+                <li>Boxing</li>
+            </ul></div>
+    </div>
+    <div id="projects" class="projects">
+        <div class="title">
+            <h1>Projects</h1>
+        </div>
+        <div class="grid">
+            <div class="project"><a href="https://blog-web-app-4.onrender.com"><img src="./images/myblog.png" alt="web blog">web blog app</a></div>
+            <div class="project"><a href="https://blog-with-database-snkl.onrender.com"><img src="./images/webblogdatabase.png" alt="web blog with database">web blog with postgresql</a></div>
+            <div class="project"><a href="https://my-animes.onrender.com"><img src="./images/animeapi.png" alt="anime api">anime api</a></div>
+            <div class="project"><a href="https://react-my-animes.onrender.com/"><img src="./images/react anime api.png" alt="react anime api">react anime api</a></div>
+            <div class="project"><a href="https://keeper-1-q1oi.onrender.com"><img src="./images/react-keeper-app.png" alt="keeper app">react keeper app</a></div>
+            <div class="project"><a href="https://mybook-notes.onrender.com"><img src="./images/mybooknotes.png" alt="my book notes">my book notes</a></div>
+            <div class="project"><a href="https://weather-app-tr.onrender.com/"><img src="./images/weatherapi.png" alt="weather api">weather api</a></div>
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact me</h1>
+        <button type="button">
+            <a href="mailto:cayiroglusinan@live.com">Contact me</a>
+        </button>
+    </div>
+           <footer>
+        <p>© 2024 Sinan</p>
+      </footer>
+    <script>
+        const menu = document.querySelector(".menu-list")
+        const menuBtn = document.querySelector(".menu-btn")
+        const cancelBtn = document.querySelector(".cancel-btn")
+        menuBtn.onclick = ()=>{
+            menu.classList.add("active")
+            menuBtn.classList.add("hide")
+        }
+        cancelBtn.onclick = ()=>{
+            menu.classList.remove("active")
+            menuBtn.classList.remove("hide")
+        }
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
