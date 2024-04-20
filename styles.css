@@ -317,6 +317,7 @@ body.dark-mode {
 .project p {
   margin-top: 5px;
 }
+
 .project-description{
  position: absolute;
  top:0;
@@ -329,10 +330,14 @@ body.dark-mode {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- transition: 0.5 ease;
+ transition: 0.5s ease;
 }
 .project:hover .project-description{
   opacity: 1;
+}
+.project a{
+  text-decoration: none;
+  color: white;
 }
 .contact {
   text-align: center;
