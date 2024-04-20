@@ -115,9 +115,12 @@
 .about-img {
   width: calc(50% -30px);
 }
+.my-image{
+  text-align: center;
+}
 .my-image img{
     border-radius: 50%;
-}
+  }
 .about-img img {
   max-width: 100%;
   height: auto;
@@ -295,5 +298,9 @@
   border-radius: 5px;
 }
 footer {
+  line-height: 100px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,15,15,1) 35%, rgba(0,212,255,1) 100%);
   text-align: center;
+  margin-top: 10px;
+  color: white;
 }

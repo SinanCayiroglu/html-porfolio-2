@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sinan's Resume</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="dark-mode.css"> <!-- Add dark mode CSS -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +23,11 @@
         <div class="logo"><a href="">Sinan Çayıroglu</a></div>
         <ul class="menu-list">
           <div class="icon cancel-btn"><i class="fas fa-times"></i></div>
+          <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+          </label>
+          <span>Dark Mode</span>
           <li><a href="#Home">Home</a></li>
           <li><a href="#aboutme">About me</a></li>
           <li><a href="#education">Education</a></li>
@@ -94,6 +101,8 @@
                 <li>Node.js</li>
                 <li>Express.js</li>
                 <li>Ejs</li>
+                <li>React</li>
+                <li>Postgresql</li>
                 <li>C++</li>
                 <li>English</li>
                 <li>Spanish</li>
@@ -117,6 +126,7 @@
     <div id="projects" class="projects">
         <div class="title">
             <h1>Projects</h1>
+            <p>It may take up to a minute to load websites below</p>
         </div>
         <div class="grid">
             <div class="project"><a href="https://blog-web-app-4.onrender.com"><img src="./images/myblog.png" alt="web blog">web blog app</a></div>
@@ -137,19 +147,7 @@
            <footer>
         <p>© 2024 Sinan</p>
       </footer>
-    <script>
-        const menu = document.querySelector(".menu-list")
-        const menuBtn = document.querySelector(".menu-btn")
-        const cancelBtn = document.querySelector(".cancel-btn")
-        menuBtn.onclick = ()=>{
-            menu.classList.add("active")
-            menuBtn.classList.add("hide")
-        }
-        cancelBtn.onclick = ()=>{
-            menu.classList.remove("active")
-            menuBtn.classList.remove("hide")
-        }
-    </script>
+
     <script src="index.js"></script>
   </body>
 </html>
